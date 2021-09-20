@@ -1,0 +1,85 @@
+  HTTP/1.1 200 OK
+  Content-Type: application/json
+
+{
+  "end_session_endpoint": "https://uat-dmccpoc.cs117.force.com/smartcity/services/auth/idp/oidc/logout",
+  "frontchannel_logout_supported": true,
+  "frontchannel_logout_session_supported": false,
+  "issuer": "https://uat-dmccpoc.cs117.force.com/smartcity",
+  "authorization_endpoint": "https://uat-dmccpoc.cs117.force.com/smartcity/services/oauth2/authorize",
+  "token_endpoint": "https://uat-dmccpoc.cs117.force.com/smartcity/services/oauth2/token",
+  "revocation_endpoint": "https://uat-dmccpoc.cs117.force.com/smartcity/services/oauth2/revoke",
+  "userinfo_endpoint": "https://uat-dmccpoc.cs117.force.com/smartcity/services/oauth2/userinfo",
+  "jwks_uri": "https://uat-dmccpoc.cs117.force.com/smartcity/id/keys",
+  "registration_endpoint": "https://uat-dmccpoc.cs117.force.com/smartcity/services/oauth2/register",
+  "introspection_endpoint": "https://uat-dmccpoc.cs117.force.com/smartcity/services/oauth2/introspect",
+  "scopes_supported": [
+    "lightning",
+    "visualforce",
+    "address",
+    "cdp_ingest_api",
+    "custom_permissions",
+    "openid",
+    "profile",
+    "content",
+    "refresh_token",
+    "wave_api",
+    "web",
+    "phone",
+    "offline_access",
+    "chatter_api",
+    "id",
+    "api",
+    "eclair_api",
+    "email",
+    "pardot_api",
+    "full"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "token id_token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "display_values_supported": [
+    "page",
+    "popup",
+    "touch"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "client_secret_basic",
+    "private_key_jwt"
+  ],
+  "claims_supported": [
+    "active",
+    "address",
+    "email",
+    "email_verified",
+    "family_name",
+    "given_name",
+    "is_app_installed",
+    "language",
+    "locale",
+    "name",
+    "nickname",
+    "organization_id",
+    "phone_number",
+    "phone_number_verified",
+    "photos",
+    "picture",
+    "preferred_username",
+    "profile",
+    "sub",
+    "updated_at",
+    "urls",
+    "user_id",
+    "user_type",
+    "zoneinfo"
+  ]
+}
